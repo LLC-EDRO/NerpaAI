@@ -12,6 +12,8 @@
   &nbsp; · &nbsp;
   <a href="#about">О проекте</a>
   &nbsp; · &nbsp;
+  <a href="#video">Видео</a>
+  &nbsp; · &nbsp;
   <a href="#opensource">Открытый код</a>
   &nbsp; · &nbsp;
   <a href="#technology">Технологии</a>
@@ -56,6 +58,20 @@
 </p>
 
 > Скриншоты показывают публичный сервис [nerpa.ai](https://nerpa.ai/). Этот репозиторий посвящён экспериментальному движку кастомных презентаций и сопровождающим датасетам.
+
+<a id="video"></a>
+
+## NerpaAI в действии
+
+Видеопрезентация проекта — познакомьтесь с NerpaAI в формате демонстрации.
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1gNjPeGZ7jf2kQQIqPXAoiCTGX3MkaVDC/view?usp=sharing">
+    <img src="docs/assets/video-preview.svg" alt="Смотреть видеопрезентацию NerpaAI на Google Drive" width="100%" />
+  </a>
+  <br /><br />
+  <a href="https://drive.google.com/file/d/1gNjPeGZ7jf2kQQIqPXAoiCTGX3MkaVDC/view?usp=sharing"><strong>▶ Смотреть видео на Google Drive ↗</strong></a>
+</p>
 
 <a id="opensource"></a>
 
