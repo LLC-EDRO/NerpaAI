@@ -1,0 +1,331 @@
+{
+  "source": "nerpa.ai/backend",
+  "engine": "custom-v3",
+  "files": [
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/chart-gradient.ts",
+      "target": "src/custom-presentations/engine/chart-gradient.ts",
+      "sha256": "728a34bb362439db6d6d95cfcc3c2a93db308e8ca991e50f01afdebf1b14b67c"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/chart-style-learning.ts",
+      "target": "src/custom-presentations/engine/chart-style-learning.ts",
+      "sha256": "0273c5065f8844e67d418bc0156fc13c110cd91e637f0bfe80f99e0aea921f6d"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/chart-style.ts",
+      "target": "src/custom-presentations/engine/chart-style.ts",
+      "sha256": "c56c12326a2368da7d23f90221f9ac75d9f97d2686c3875e0db6194ed959c54a"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/data-contract.ts",
+      "target": "src/custom-presentations/engine/data-contract.ts",
+      "sha256": "f6781261749bf611ec82449a5b04ad127df73ee1b3de1777cd1e36b25af7e6ee"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/data-explanation.ts",
+      "target": "src/custom-presentations/engine/data-explanation.ts",
+      "sha256": "f297fa4e1a3e27788aef6defed65c3d1134485ee791bfed068bdc34f8171a4e4"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/data-planning.ts",
+      "target": "src/custom-presentations/engine/data-planning.ts",
+      "sha256": "d6cc1e9bce1a05c7d2f94197a2e0bba55b37106f63921be5f0894a493bdf3a2e"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/docker-runtime.ts",
+      "target": "src/custom-presentations/engine/docker-runtime.ts",
+      "sha256": "b21a0f474eba43ba4be0e1c8652e0cf75951a350bb55a471f705c6b36b7bea2f"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/domain.ts",
+      "target": "src/custom-presentations/engine/domain.ts",
+      "sha256": "4a2a2f6ff725d5516dd95a465099714f4b4ae83f10f4993e90f730c5985e0586"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/editor-visual.ts",
+      "target": "src/custom-presentations/engine/editor-visual.ts",
+      "sha256": "39fa64409756aec0624286e061968be1f3d716c53e5d1d00bd05f87f49f09244"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/errors.ts",
+      "target": "src/custom-presentations/engine/errors.ts",
+      "sha256": "d8838cfe75a2e269e342653c1597ef9d250c722811947cb896bed97f1c8c7a5e"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/final-visual-review.ts",
+      "target": "src/custom-presentations/engine/final-visual-review.ts",
+      "sha256": "bb708e38ced4573e47c2475170e3d6c40acdfc0ec2fa4693b46174e6bf7c6d52"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/fonts.ts",
+      "target": "src/custom-presentations/engine/fonts.ts",
+      "sha256": "b3aa302e2627850336b7255571a2ae833df995f6dfcfddc432f31dffd5b836ec"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/generation-budget.ts",
+      "target": "src/custom-presentations/engine/generation-budget.ts",
+      "sha256": "0ddbb07d2a9594094cae874e12cb4e91cfea74b65418b86c0d30c4da34018f4e"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-author-batches.ts",
+      "target": "src/custom-presentations/engine/html-author-batches.ts",
+      "sha256": "aa6766c4179f10892d84932d6352bbf61252e3537d240681dc1f31d560febe92"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-author-context.ts",
+      "target": "src/custom-presentations/engine/html-author-context.ts",
+      "sha256": "101945841e0936c23ea4a69ae86432b339b7715ab8cd5f0d30071a9e929cff23"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-author-schema.ts",
+      "target": "src/custom-presentations/engine/html-author-schema.ts",
+      "sha256": "7e70522a49c04979ddb91c2924ea3b8ad3d43f98d70f445604007e0ca6c8a37d"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-bindings.ts",
+      "target": "src/custom-presentations/engine/html-bindings.ts",
+      "sha256": "bf22c3003b9879ff4e99b979fd7689a61c874645e9859e1030407477c0af32b7"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-code-normalization.ts",
+      "target": "src/custom-presentations/engine/html-code-normalization.ts",
+      "sha256": "1432007227df859574a2730bf6cdabaa43b9269482784d605bd2b7ad9f3c4cd5"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-design-policies.ts",
+      "target": "src/custom-presentations/engine/html-design-policies.ts",
+      "sha256": "e22f98eb4c40e1291960030749b4b996c8f732bc4246a809bded3d9ac79c4b2d"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-design.ts",
+      "target": "src/custom-presentations/engine/html-design.ts",
+      "sha256": "fbb2098f83023c063c160eab4da02c981d3363b3a33b04c85df8390b080fff02"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-domain.ts",
+      "target": "src/custom-presentations/engine/html-domain.ts",
+      "sha256": "754d3e257254dd8a7e936dfa2fc82fe4ca8f79bead05a1e225e427d872a050ef"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-layout-roles.ts",
+      "target": "src/custom-presentations/engine/html-layout-roles.ts",
+      "sha256": "b5ad536050833bf86738696c93dedc0ece21107bda14d72217315970e56d9507"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-model-geometry.ts",
+      "target": "src/custom-presentations/engine/html-model-geometry.ts",
+      "sha256": "7df7b7ada7f44c76d6efa3ca7eb42d7d9c300a71661c0e37a0afa4320ad9e293"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-pipeline.ts",
+      "target": "src/custom-presentations/engine/html-pipeline.ts",
+      "sha256": "a0b60b72566b99d1c3a0d329a5b26a6b3eb93a0acdf31a43596fb029e20a716b"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-planning.ts",
+      "target": "src/custom-presentations/engine/html-planning.ts",
+      "sha256": "9fad8bbc643a2ca7bf36b74b3eccae0f502d28121e7b9fe190210fee0697c3b9"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-progress.ts",
+      "target": "src/custom-presentations/engine/html-progress.ts",
+      "sha256": "3409ac7339ecd12f48da709d7cfb0e0cc0ac6ad7a5cbbdb1dd1240d0a9f5f764"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-recovery.ts",
+      "target": "src/custom-presentations/engine/html-recovery.ts",
+      "sha256": "af631475ac9e01887bd22c397c87502b7bd5d9129a3c733b25b5524511e1454e"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-sample-data.ts",
+      "target": "src/custom-presentations/engine/html-sample-data.ts",
+      "sha256": "f934881fc6e962284c0afbe42a6f3b71702d64feb6c9a5d1e943b53f7fbce629"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-source-design.ts",
+      "target": "src/custom-presentations/engine/html-source-design.ts",
+      "sha256": "e909de7a4e67ec21a771003e93782352899ebc63c6f053251ae1b19afefa7fc5"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-source-statistics.ts",
+      "target": "src/custom-presentations/engine/html-source-statistics.ts",
+      "sha256": "0c8a37422d6ab344a76ad8c84ec7c13d7696362c5339a88baadba6f68cb8aa2f"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-template-context.ts",
+      "target": "src/custom-presentations/engine/html-template-context.ts",
+      "sha256": "3aa87db8cc8c54f1ee2aaf8b1d69196379458b486ed5cc40c006c916b52b2ca4"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/html-visual-review.ts",
+      "target": "src/custom-presentations/engine/html-visual-review.ts",
+      "sha256": "23692cb9708635ab1b7e6c2cd421b21612dac0d5b0b96aa55f0ae395f9fb6534"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/image-request.ts",
+      "target": "src/custom-presentations/engine/image-request.ts",
+      "sha256": "ef2ac8ac710b0fc78f6fe548b9fc2a8c4405370ec036b10b771b85de32e346e0"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/image-size.ts",
+      "target": "src/custom-presentations/engine/image-size.ts",
+      "sha256": "920d2514e01118909c0b674a4b38e42849db9d8e41d199fd61a7ae53e9ea80c1"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/layout-selection.ts",
+      "target": "src/custom-presentations/engine/layout-selection.ts",
+      "sha256": "d970bfecc4de193e85c82bbd1a925e0bd9ea3ff05b6119f5cad02b6439884126"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/llm.ts",
+      "target": "src/custom-presentations/engine/llm.ts",
+      "sha256": "00a29fd35b80989961f77944cff8a27e975d6323ecb0d9fe3ed952094aa78d42"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/model-json.ts",
+      "target": "src/custom-presentations/engine/model-json.ts",
+      "sha256": "55a25d868968397b6334b6e7623acc87dd33cf950a94e144b66f79c0b388dd04"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/narrative-layouts.ts",
+      "target": "src/custom-presentations/engine/narrative-layouts.ts",
+      "sha256": "1fa16b33e6e0e82a1da768b8a816884bcc93bcd0f3cb2911a0fbf2744892a7cc"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/native-charts.ts",
+      "target": "src/custom-presentations/engine/native-charts.ts",
+      "sha256": "b7a3cb24ede9f698050ccc07751bcd7ea576850154af94dfc175faa91ad0e5a0"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/native-pool.ts",
+      "target": "src/custom-presentations/engine/native-pool.ts",
+      "sha256": "7c594cbe4b21dd361b2bda216b8df418fe375fd7ae4d137796c985165b4ec8a3"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/pipeline.ts",
+      "target": "src/custom-presentations/engine/pipeline.ts",
+      "sha256": "94434f64d4f6fb68fd33c274e5289091a92611f6324943a16492898b47a634a2"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/plan-quality.ts",
+      "target": "src/custom-presentations/engine/plan-quality.ts",
+      "sha256": "abf0f88301158fbccacd521192d406475d8ae2856645c51c2ce0cd79518f7d50"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/plan-recovery.ts",
+      "target": "src/custom-presentations/engine/plan-recovery.ts",
+      "sha256": "e9ff48285bd51790eab366c3f3fd04bf5ddedb3008c4da605f6d97428c869f0a"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/provider-request.ts",
+      "target": "src/custom-presentations/engine/provider-request.ts",
+      "sha256": "84662d00789982537bde8227af76e563a10cef6b40b9152c2f434ee3c693f66d"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/quality-warnings.ts",
+      "target": "src/custom-presentations/engine/quality-warnings.ts",
+      "sha256": "7cc8af30df5805118d1ef59ccb0c1d534d34eff0bf3d52beba75187affd1ecaf"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/research-coverage.ts",
+      "target": "src/custom-presentations/engine/research-coverage.ts",
+      "sha256": "24bebcd6f384aa096bcbd10f56b9a449c1f157edaa92569cf82029dba09b7c9e"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/research.ts",
+      "target": "src/custom-presentations/engine/research.ts",
+      "sha256": "cb8bcda12a514a0c8bab64ce783086fe389572984991344d7561ec7dcfbeeedb"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/retry.ts",
+      "target": "src/custom-presentations/engine/retry.ts",
+      "sha256": "b621d29b77d26a9ff2b9017915c61bc374628f1222115ef5f04ba1de628b6a28"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/runtime-context.ts",
+      "target": "src/custom-presentations/engine/runtime-context.ts",
+      "sha256": "45953afb7fc680b6b54adf1019bc1b46455aef75dcd3bfc617d06f916fd22db6"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/sandbox-protocol.ts",
+      "target": "src/custom-presentations/engine/sandbox-protocol.ts",
+      "sha256": "3b36f3b7403dd80c5b89c321ea62af0f2da2010fa8fee34d00f2e9209fd00dd9"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/sandbox.ts",
+      "target": "src/custom-presentations/engine/sandbox.ts",
+      "sha256": "8517cc0a97e3286e6105a5e73df215578447d8b4dbb6b7765c361c0f59110b14"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/shared-snapshot.ts",
+      "target": "src/custom-presentations/engine/shared-snapshot.ts",
+      "sha256": "7a69884c1500d2fb7eedefa4b66e5fcb1742a12c132873d620db444ac3e9a41a"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/slide-concept.ts",
+      "target": "src/custom-presentations/engine/slide-concept.ts",
+      "sha256": "7fc77629a36fa5bf785f7bae7889c03604cca24eaf1994e8ac0ff38e83932970"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/source-composition.ts",
+      "target": "src/custom-presentations/engine/source-composition.ts",
+      "sha256": "6d2df020d20587486a543ec80201f4331ff6932acc53d79eb80099043a3cbf09"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/source-figure-evidence.ts",
+      "target": "src/custom-presentations/engine/source-figure-evidence.ts",
+      "sha256": "b6f0aedb73ea4f96f5457b76aabf41895e869bcbb029e2a16a3528c49f5eb49a"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/source-numbers.ts",
+      "target": "src/custom-presentations/engine/source-numbers.ts",
+      "sha256": "1d27de399e5dc73339cd4644845a9e344cd1f3b19c7566a4500b031e9e5ddb7a"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/source-tables.ts",
+      "target": "src/custom-presentations/engine/source-tables.ts",
+      "sha256": "cd1ae6ef7a7dd35df5a87f1ce5ce6ef7e7f9bcaf0cc615e11c29e83e5c2595d4"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/store.ts",
+      "target": "src/custom-presentations/engine/store.ts",
+      "sha256": "8dc6e9b7752457e6df336b9ac5683fa67b4c81d278081b7fab443ab3ed5ca25a"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/style-prompts.ts",
+      "target": "src/custom-presentations/engine/style-prompts.ts",
+      "sha256": "33d9d4cfd82c9f747fbf6b26f980a486bcd2922daafed5d3dce01db2dae0923e"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/style-stencils.ts",
+      "target": "src/custom-presentations/engine/style-stencils.ts",
+      "sha256": "677028968ff8a90bc977445b93518f71390fc2cd72efe7fe81ac5b4416e902ef"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/template-catalog.ts",
+      "target": "src/custom-presentations/engine/template-catalog.ts",
+      "sha256": "8fab1c3b176b07bc2c09a1e15c62edea568b66cb48308dc2634fbb2748e42be9"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/template-version.ts",
+      "target": "src/custom-presentations/engine/template-version.ts",
+      "sha256": "bf425e2ce74c896f82e642060233e91368282d1a1abe66378d8992b4d74c705c"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/terminal-html.ts",
+      "target": "src/custom-presentations/engine/terminal-html.ts",
+      "sha256": "d73394ed9be978574a00df705c57db2e2cb17e10a7b23e81d83acc84b3375a34"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/visual-assets.ts",
+      "target": "src/custom-presentations/engine/visual-assets.ts",
+      "sha256": "8360aaf6428da4ce6d3a6060d1a9e8801da8cfd474e26808c783db2c17d98129"
+    },
+    {
+      "source": "src/presentations/agents/uploaded-template/engine/visual-types.ts",
+      "target": "src/custom-presentations/engine/visual-types.ts",
+      "sha256": "e7b893fad19de816ad3110b530db6b9c6acae2fbdfc8ad9a4c6041ee473aa4ee"
+    }
+  ]
+}

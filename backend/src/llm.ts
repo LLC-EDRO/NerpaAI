@@ -7,6 +7,7 @@ import { HttpError } from "./errors.js";
 import { writeDiagnostic } from "./store.js";
 import { engineContext } from "./runtime-context.js";
 import { activeSelection, connectionFor } from "./model-settings.js";
+import {inferenceChatBody} from './inference-provider.js';
 export const modelInfo = () => {
   const selection = activeSelection();
   let configured = false;
@@ -45,7 +46,7 @@ export async function llmJson<T>(input: {
   const selection = activeSelection();
   const connection = connectionFor(selection);
   const model = vision || input.useVisionModel ? selection.visionModel : selection.textModel;
-  const endpoint = connection.baseUrl + "/v1/chat/completions";
+  const endpoint = connection.endpoint;
   const images = await Promise.all(
     (input.images || []).map(async (file) => ({
       type: "image_url",
@@ -73,6 +74,7 @@ export async function llmJson<T>(input: {
           : "") +
         "\n" +
         input.prompt +
+        (input.schema ? '\nВерни JSON по этой схеме: ' + JSON.stringify(input.schema) : '') +
         (input.stage.startsWith("fill-") ? "\nДля готового видимого текста используй обычные буквы и пунктуацию. Сравнения лучше пиши словами до/после; не добавляй стрелки, эмодзи и редкие математические символы, которых нет в исходном тексте поля. Если переданы researchEvidence/facts с ID, evidence содержит только соответствующие ID: не повторяй весь userSource в каждом поле. Это правило не меняет факты, числа или единицы." : ""),
     },
     {
@@ -80,37 +82,18 @@ export async function llmJson<T>(input: {
       content: images.length ? content : JSON.stringify(engineContext()?.instructions ? {taskInstructions:engineContext()!.instructions,data:input.payload} : input.payload),
     },
   ];
-  let tokenLimit = 14000;
   let truncationRetried = false,
     schemaRetried = false;
   for (let attempt = 0; attempt < 3; attempt++) {
     input.signal?.throwIfAborted();
     await engineContext()?.assertActive?.();
     const started = Date.now();
-    const body = {
-      model,
-      messages,
-      response_format: {
-        type: "json_schema",
-        json_schema: {
-          name: "nerpa_stage",
-          strict: !!input.schema,
-          schema: input.schema || { type: "object" },
-        },
-      },
-      max_tokens: tokenLimit,
-      params: { max_tokens: tokenLimit },
-      stream: true,
-      stream_options: { include_usage: true },
-    };
+    const body = inferenceChatBody(model, messages);
     const result = await providerJson({
       url: endpoint,
       init: {
         method: "POST",
-        headers: {
-          ...(connection.apiKey ? {Authorization: `Bearer ${connection.apiKey}`} : {}),
-          "Content-Type": "application/json",
-        },
+        headers: connection.headers,
         body: JSON.stringify(body),
       },
       timeoutMs: Number(process.env.MODEL_TIMEOUT_MS) || 180000,
@@ -131,7 +114,7 @@ export async function llmJson<T>(input: {
       model,
       responseModel: result.model,
       serviceTier: result.service_tier,
-      provider: "ollama",
+      provider: selection.provider,
       vision,
       attempt,
       durationMs: Date.now() - started,
@@ -175,7 +158,6 @@ export async function llmJson<T>(input: {
           "llm_truncated",
         );
       truncationRetried = true;
-      tokenLimit *= 2;
       // Do not feed thousands of partial JSON tokens back into the next request.
       messages.push({
         role: "user",

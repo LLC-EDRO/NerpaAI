@@ -38,7 +38,8 @@ export const planSchema = z.object({
     .max(40),
 });
 export type Outline = z.infer<typeof planSchema>;
-export type Brief = z.infer<typeof briefSchema> & {instructions?:string};
+export type Brief = z.infer<typeof briefSchema> & {instructions?:string;
+  dataSources?: import('./custom-presentations/engine/data-contract.js').PresentationDataSource[]};
 export interface Layout {
   id: string;
   index: number;
@@ -64,6 +65,7 @@ export interface Slot {
   [key: string]: any;
 }
 export interface Project {
+  engineVersion?: "custom-v3";
   modelSettings?: import("./model-settings.js").ModelSelection;
   id: string;
   name: string;

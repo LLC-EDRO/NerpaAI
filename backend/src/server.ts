@@ -2,7 +2,6 @@ import "dotenv/config";
 import {loadModelSettings, publicModelSettings, saveModelSettings, discoverModels, currentSelection, defaultSelection, withModelSelection} from "./model-settings.js";
 import express from "express";
 import {
-  prepareVisualPlan,
   currentVisualPlan,
   normalizeVisualPlan,
   editVisual,
@@ -11,6 +10,7 @@ import {
 import multer from "multer";
 import { writeFile, mkdir } from "node:fs/promises";
 import { join, resolve } from "node:path";
+import {fileURLToPath} from "node:url";
 import { z } from "zod";
 import { HttpError } from "./errors.js";
 import { briefSchema, type Project } from "./domain.js";
@@ -31,7 +31,15 @@ import {
   validatePlan,
   researchProject,
   adaptPlan,
-} from "./pipeline.js";
+  prepareVisualPlan,
+  usesCustomEngine,
+  customEngine,
+} from "./custom-presentations/pipeline.js";
+import {briefSchema as customBriefSchema} from "./custom-presentations/engine/domain.js";
+import {nativeSandboxRevision as customSandboxRevision} from "./custom-presentations/engine/sandbox.js";
+import {withEngineContext as withCustomEngineContext} from "./custom-presentations/engine/runtime-context.js";
+import {uploadProjectData, listProjectData, resolveProjectData, deleteProjectData} from "./custom-presentations/data/store.js";
+import {PRESENTATION_DATA_MAX_BYTES} from "./custom-presentations/data/parse.js";
 import { modelInfo } from "./llm.js";
 import { projectTokenUsage } from "./token-usage.js";
 async function publicProject(p: Project) {
@@ -42,7 +50,7 @@ import { nativeSandboxRevision, releaseFontSnapshot, releaseNativeRenderer } fro
 import { withEngineContext, type EngineRuntime } from "./runtime-context.js";
 import { ensurePlanBaseline, changedPlanSlides } from "./plan-adaptation.js";
 
-const app = express(),
+export const app = express(),
   port = Number(process.env.PORT) || 4100;
 app.disable("x-powered-by");
 app.use((req, res, next) => {
@@ -170,7 +178,14 @@ app.get("/api/health", async (_req, res) => {
     await nativeSandboxRevision();
     sandbox = true;
   } catch {}
-  res.json({ ok: true, storage: "json-files", sandbox, models: modelInfo() });
+  let customSandbox = false;
+  try {
+    await withCustomEngineContext({workspace: resolve("data"), env: {
+      PRESENTATION_SANDBOX_IMAGE: process.env.CUSTOM_PRESENTATION_SANDBOX_IMAGE || "nerpa-free-pptx:3",
+    }}, async () => { await customSandboxRevision(); customSandbox = true; });
+  } catch {}
+  res.json({ ok: true, storage: "json-files", sandbox, customSandbox,
+    customEngine, dataFormats: ["json", "jsonl", "ndjson", "xml", "csv", "tsv", "xlsx", "xls", "xlsm", "ods", "txt", "md"], models: modelInfo() });
 });
 app.get("/api/projects", async (_req, res) =>
   res.json(
@@ -190,6 +205,7 @@ app.post("/api/projects", upload.single("file"), async (req, res) => {
     throw new HttpError(409, "Дождитесь завершения текущего этапа", "lab_busy");
   const name = Buffer.from(req.file.originalname, "latin1").toString("utf8");
   const p = await createProject(name);
+  p.engineVersion = customEngine;
   p.modelSettings=currentSelection();
   await mkdir(join(projectDir(p.id), "source"), { recursive: true });
   await writeFile(
@@ -202,6 +218,37 @@ app.post("/api/projects", upload.single("file"), async (req, res) => {
 app.get("/api/projects/:id", async (req, res) =>
   res.json(await publicProject(await getProject(req.params.id))),
 );
+const dataUpload = multer({storage: multer.memoryStorage(), limits: {
+  fileSize: PRESENTATION_DATA_MAX_BYTES, files: 1, fields: 0,
+}});
+function invalidateDataPlan(p: Project) {
+  p.revision++;
+  delete p.plan; delete p.planAdaptation; delete p.contract; delete p.visuals;
+  delete p.result; delete p.error; delete p.research;
+  p.status = "ready";
+}
+app.get("/api/projects/:id/data", async (req, res) => {
+  const p = await getProject(String(req.params.id));
+  res.json({sources: await listProjectData(p.id)});
+});
+app.post("/api/projects/:id/data", dataUpload.single("file"), async (req, res) => {
+  const p = await idle(String(req.params.id));
+  if (!usesCustomEngine(p)) throw new HttpError(409, "Для файлов данных создайте новый проект с движком V3", "legacy_project");
+  if (!req.file) throw new HttpError(400, "Прикрепите файл данных", "data_invalid_file");
+  const name = Buffer.from(req.file.originalname, "latin1").toString("utf8");
+  const source = await uploadProjectData(p.id, req.file.buffer, name);
+  invalidateDataPlan(p);
+  if (p.brief) (p.brief as any).dataSources = await resolveProjectData(p.id);
+  await saveProject(p, "Файл данных разобран. Создайте план с обновлёнными материалами.");
+  res.status(201).json({source, project: await publicProject(p)});
+});
+app.delete("/api/projects/:id/data/:sourceId", async (req, res) => {
+  const p = await idle(String(req.params.id));
+  await deleteProjectData(p.id, String(req.params.sourceId));
+  invalidateDataPlan(p);
+  if (p.brief) (p.brief as any).dataSources = await resolveProjectData(p.id);
+  res.json(await publicProject(await saveProject(p, "Источник удалён. Обновите план.")));
+});
 app.post("/api/projects/:id/plan", async (req, res) => {
   const p = await idle(String(req.params.id));
   if (!p.analysis)
@@ -210,7 +257,11 @@ app.post("/api/projects/:id/plan", async (req, res) => {
       "Сначала дождитесь разбора шаблона",
       "no_analysis",
     );
-  p.brief = { ...briefSchema.parse(req.body), webSearch: false };
+  if (usesCustomEngine(p)) {
+    const ids = req.body.dataSourceIds === undefined ? undefined : z.array(z.string().uuid()).max(6).parse(req.body.dataSourceIds);
+    p.brief = {...customBriefSchema.omit({dataSources: true, sourceDocument: true}).parse(req.body),
+      webSearch: false, dataSources: await resolveProjectData(p.id, ids)};
+  } else p.brief = { ...briefSchema.parse(req.body), webSearch: false };
   p.revision++;
   delete p.plan;
   delete p.planAdaptation;
@@ -232,7 +283,7 @@ app.put("/api/projects/:id/plan", async (req, res) => {
       "План изменился. Обновите страницу.",
       "revision_conflict",
     );
-  await ensurePlanBaseline(p);
+  if (!usesCustomEngine(p)) await ensurePlanBaseline(p);
   p.plan = validatePlan(p, req.body.plan);
   p.revision++;
   delete p.visuals;
@@ -419,6 +470,8 @@ app.get("/api/projects/:id/files/:kind/:name", async (req, res) => {
     )
   )
     path = join(root, `output-r${p.revision}`, name);
+  if (usesCustomEngine(p) && kind === "output" && /^(html-scenes|html-generation-report)\.json$/.test(name))
+    path = join(root, `output-r${p.revision}`, name);
   if (kind === "json" && ["template", "filled", "plan"].includes(name))
     path = join(root, `${name}-r${p.revision}.json`);
   if (kind === "json" && name === "error") path = join(root, "last-error.json");
@@ -479,13 +532,11 @@ app.use(
 );
 // Acquire the listening port before touching saved jobs. A second launcher must
 // never mark the first process's active generation as interrupted.
-await loadModelSettings();
-await new Promise<void>((resolve, reject) => {
-  app.listen(port, "127.0.0.1", (error?: Error) =>
-    error ? reject(error) : resolve(),
-  );
-});
-await recoverInterrupted();
-console.log(
-  `Nerpa Template Lab: http://localhost:${port} · JSON storage · no database`,
-);
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  await loadModelSettings();
+  await new Promise<void>((resolve, reject) => {
+    app.listen(port, "127.0.0.1", (error?: Error) => error ? reject(error) : resolve());
+  });
+  await recoverInterrupted();
+  console.log(`Nerpa Template Lab: http://localhost:${port} · JSON storage · custom V3`);
+}

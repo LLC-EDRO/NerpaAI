@@ -6,15 +6,21 @@
     "dev": "tsx src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "test": "tsx --test test/*.test.ts",
-    "test:native": "tsx test/native-acceptance.ts"
+    "test": "tsx --test test/*.test.ts test/custom-presentations/*.test.ts",
+    "test:native": "tsx test/native-acceptance.ts",
+    "sandbox:custom": "docker build -t nerpa-free-pptx:3 vendor/custom-presentation-agent",
+    "test:custom": "tsx --test test/custom-presentations/*.test.ts"
   },
   "dependencies": {
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "multer": "^2.0.2",
     "sharp": "^0.35.4",
-    "zod": "^4.1.0"
+    "zod": "^4.1.0",
+    "cheerio": "1.2.0",
+    "jszip": "^3.10.1",
+    "fast-xml-parser": "^5.10.1",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",

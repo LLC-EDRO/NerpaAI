@@ -61,8 +61,9 @@ npm run dev
 
 ```sh
 npm run setup
-cp backend/.env.example backend/.env
-# Установите локальную модель: ollama pull gemma4:12b
+# Задайте API_KEY, PROJECT_ID, INFERENCE_BASE_URL и INFERENCE_MODEL
+# в окружении сервера или в локальном backend/.env.inference.local.
+npm --prefix backend run sandbox:custom
 npm run dev
 ```
 
