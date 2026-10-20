@@ -1,0 +1,1955 @@
+[
+  {
+    "year": 2022,
+    "economy_code": "ABW",
+    "economy_name": "Aruba",
+    "population_people": 107310,
+    "gdp_per_capita_constant_2015_usd": 29198.9903584827,
+    "internet_users_pct": null,
+    "electricity_access_pct": 99.9
+  },
+  {
+    "year": 2022,
+    "economy_code": "AFG",
+    "economy_name": "Afghanistan",
+    "population_people": 40578842,
+    "gdp_per_capita_constant_2015_usd": 377.665627080705,
+    "internet_users_pct": 15.86629963,
+    "electricity_access_pct": 85.3
+  },
+  {
+    "year": 2022,
+    "economy_code": "AGO",
+    "economy_name": "Angola",
+    "population_people": 35635029,
+    "gdp_per_capita_constant_2015_usd": 2798.01717317688,
+    "internet_users_pct": 35.83800125,
+    "electricity_access_pct": 48.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "ALB",
+    "economy_name": "Albania",
+    "population_people": 2451636,
+    "gdp_per_capita_constant_2015_usd": 5867.65096230557,
+    "internet_users_pct": 82.61367544,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "AND",
+    "economy_name": "Andorra",
+    "population_people": 79705,
+    "gdp_per_capita_constant_2015_usd": 39780.3966130791,
+    "internet_users_pct": 94.05169678,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ARE",
+    "economy_name": "United Arab Emirates",
+    "population_people": 10074977,
+    "gdp_per_capita_constant_2015_usd": 41828.5686923546,
+    "internet_users_pct": 100,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ARG",
+    "economy_name": "Argentina",
+    "population_people": 45407904,
+    "gdp_per_capita_constant_2015_usd": 13276.8232110189,
+    "internet_users_pct": 88.37535691,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ARM",
+    "economy_name": "Armenia",
+    "population_people": 2969200,
+    "gdp_per_capita_constant_2015_usd": 4791.00481712183,
+    "internet_users_pct": 77.02767465,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ASM",
+    "economy_name": "American Samoa",
+    "population_people": 48342,
+    "gdp_per_capita_constant_2015_usd": 13709.0974895473,
+    "internet_users_pct": null,
+    "electricity_access_pct": null
+  },
+  {
+    "year": 2022,
+    "economy_code": "ATG",
+    "economy_name": "Antigua and Barbuda",
+    "population_people": 92840,
+    "gdp_per_capita_constant_2015_usd": 17359.2674811108,
+    "internet_users_pct": 71.9233017,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "AUS",
+    "economy_name": "Australia",
+    "population_people": 26018721,
+    "gdp_per_capita_constant_2015_usd": 61200.4588964781,
+    "internet_users_pct": 96.11940002,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "AUT",
+    "economy_name": "Austria",
+    "population_people": 9041851,
+    "gdp_per_capita_constant_2015_usd": 47332.4240357971,
+    "internet_users_pct": 93.61409139,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "AZE",
+    "economy_name": "Azerbaijan",
+    "population_people": 10141756,
+    "gdp_per_capita_constant_2015_usd": 5599.58524971025,
+    "internet_users_pct": 88,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BDI",
+    "economy_name": "Burundi",
+    "population_people": 13321097,
+    "gdp_per_capita_constant_2015_usd": 263.587550049119,
+    "internet_users_pct": 7.144800186,
+    "electricity_access_pct": 10.3
+  },
+  {
+    "year": 2022,
+    "economy_code": "BEL",
+    "economy_name": "Belgium",
+    "population_people": 11680210,
+    "gdp_per_capita_constant_2015_usd": 44516.002160801,
+    "internet_users_pct": 94.00783071,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BEN",
+    "economy_name": "Benin",
+    "population_people": 13759501,
+    "gdp_per_capita_constant_2015_usd": 1218.49668929091,
+    "internet_users_pct": 30.53730011,
+    "electricity_access_pct": 56.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "BFA",
+    "economy_name": "Burkina Faso",
+    "population_people": 22509038,
+    "gdp_per_capita_constant_2015_usd": 740.306319930259,
+    "internet_users_pct": 25.3987999,
+    "electricity_access_pct": 19.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "BGD",
+    "economy_name": "Bangladesh",
+    "population_people": 169384897,
+    "gdp_per_capita_constant_2015_usd": 1804.3493461776,
+    "internet_users_pct": 41.61650085,
+    "electricity_access_pct": 99.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "BGR",
+    "economy_name": "Bulgaria",
+    "population_people": 6465097,
+    "gdp_per_capita_constant_2015_usd": 9598.35828571579,
+    "internet_users_pct": 79.12686326,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BHR",
+    "economy_name": "Bahrain",
+    "population_people": 1524693,
+    "gdp_per_capita_constant_2015_usd": 25234.40256182,
+    "internet_users_pct": 100,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BHS",
+    "economy_name": "Bahamas, The",
+    "population_people": 397538,
+    "gdp_per_capita_constant_2015_usd": 32186.4575039237,
+    "internet_users_pct": 92.2559967,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BIH",
+    "economy_name": "Bosnia and Herzegovina",
+    "population_people": 3204802,
+    "gdp_per_capita_constant_2015_usd": 6327.16206849174,
+    "internet_users_pct": 78.8455371,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BLR",
+    "economy_name": "Belarus",
+    "population_people": 9228071,
+    "gdp_per_capita_constant_2015_usd": 6206.61909685419,
+    "internet_users_pct": 89.50733148,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BLZ",
+    "economy_name": "Belize",
+    "population_people": 402733,
+    "gdp_per_capita_constant_2015_usd": 6262.56088273674,
+    "internet_users_pct": 69.98329926,
+    "electricity_access_pct": 98.6
+  },
+  {
+    "year": 2022,
+    "economy_code": "BMU",
+    "economy_name": "Bermuda",
+    "population_people": 64749,
+    "gdp_per_capita_constant_2015_usd": 109412.251159598,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BOL",
+    "economy_name": "Bolivia",
+    "population_people": 12077154,
+    "gdp_per_capita_constant_2015_usd": 3088.24126173436,
+    "internet_users_pct": 72.62270355,
+    "electricity_access_pct": 99.9
+  },
+  {
+    "year": 2022,
+    "economy_code": "BRA",
+    "economy_name": "Brazil",
+    "population_people": 210306415,
+    "gdp_per_capita_constant_2015_usd": 9032.08481566299,
+    "internet_users_pct": 80.52775094,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BRB",
+    "economy_name": "Barbados",
+    "population_people": 282318,
+    "gdp_per_capita_constant_2015_usd": 21315.9363255517,
+    "internet_users_pct": 69.06359863,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BRN",
+    "economy_name": "Brunei Darussalam",
+    "population_people": 455370,
+    "gdp_per_capita_constant_2015_usd": 28549.1756060465,
+    "internet_users_pct": 98.97042579,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BTN",
+    "economy_name": "Bhutan",
+    "population_people": 780914,
+    "gdp_per_capita_constant_2015_usd": 3349.73309632799,
+    "internet_users_pct": 88.35620117,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "BWA",
+    "economy_name": "Botswana",
+    "population_people": 2439892,
+    "gdp_per_capita_constant_2015_usd": 7159.5860618268,
+    "internet_users_pct": 57.9,
+    "electricity_access_pct": 75.9
+  },
+  {
+    "year": 2022,
+    "economy_code": "CAF",
+    "economy_name": "Central African Republic",
+    "population_people": 5098039,
+    "gdp_per_capita_constant_2015_usd": 398.91539795642,
+    "internet_users_pct": 13.75360012,
+    "electricity_access_pct": 15.7
+  },
+  {
+    "year": 2022,
+    "economy_code": "CAN",
+    "economy_name": "Canada",
+    "population_people": 38950132,
+    "gdp_per_capita_constant_2015_usd": 45883.0058941892,
+    "internet_users_pct": 94,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CHE",
+    "economy_name": "Switzerland",
+    "population_people": 8777088,
+    "gdp_per_capita_constant_2015_usd": 93360.440112464,
+    "internet_users_pct": 96.45279694,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CHI",
+    "economy_name": "Channel Islands",
+    "population_people": 167215,
+    "gdp_per_capita_constant_2015_usd": 67508.9385276664,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CHL",
+    "economy_name": "Chile",
+    "population_people": 19553036,
+    "gdp_per_capita_constant_2015_usd": 14275.4094646211,
+    "internet_users_pct": 92.31819916,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CHN",
+    "economy_name": "China",
+    "population_people": 1412175000,
+    "gdp_per_capita_constant_2015_usd": 11830.298767861,
+    "internet_users_pct": 75.61131603,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CIV",
+    "economy_name": "Cote d'Ivoire",
+    "population_people": 30395002,
+    "gdp_per_capita_constant_2015_usd": 2227.08197820584,
+    "internet_users_pct": 38.41328122,
+    "electricity_access_pct": 70.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "CMR",
+    "economy_name": "Cameroon",
+    "population_people": 27632771,
+    "gdp_per_capita_constant_2015_usd": 1458.66180431693,
+    "internet_users_pct": 40.12559891,
+    "electricity_access_pct": 71
+  },
+  {
+    "year": 2022,
+    "economy_code": "COD",
+    "economy_name": "Congo, Dem. Rep.",
+    "population_people": 102396968,
+    "gdp_per_capita_constant_2015_usd": 513.512704372167,
+    "internet_users_pct": 17.99620056,
+    "electricity_access_pct": 21.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "COG",
+    "economy_name": "Congo, Rep.",
+    "population_people": 6035104,
+    "gdp_per_capita_constant_2015_usd": 1686.00234391385,
+    "internet_users_pct": 40.98669815,
+    "electricity_access_pct": 50.6
+  },
+  {
+    "year": 2022,
+    "economy_code": "COL",
+    "economy_name": "Colombia",
+    "population_people": 51737944,
+    "gdp_per_capita_constant_2015_usd": 6856.72590505374,
+    "internet_users_pct": 72.79637855,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "COM",
+    "economy_name": "Comoros",
+    "population_people": 834188,
+    "gdp_per_capita_constant_2015_usd": 1366.9513495529,
+    "internet_users_pct": 31.37409973,
+    "electricity_access_pct": 89.9
+  },
+  {
+    "year": 2022,
+    "economy_code": "CPV",
+    "economy_name": "Cabo Verde",
+    "population_people": 519741,
+    "gdp_per_capita_constant_2015_usd": 3997.76763250653,
+    "internet_users_pct": 73.32740021,
+    "electricity_access_pct": 97.1
+  },
+  {
+    "year": 2022,
+    "economy_code": "CRI",
+    "economy_name": "Costa Rica",
+    "population_people": 5081765,
+    "gdp_per_capita_constant_2015_usd": 13931.8461614764,
+    "internet_users_pct": 82.59801121,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CUB",
+    "economy_name": "Cuba",
+    "population_people": 11059820,
+    "gdp_per_capita_constant_2015_usd": 7552.33152218842,
+    "internet_users_pct": 67.88410187,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CUW",
+    "economy_name": "Curacao",
+    "population_people": 153321,
+    "gdp_per_capita_constant_2015_usd": 16772.8146989153,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CYM",
+    "economy_name": "Cayman Islands",
+    "population_people": 71591,
+    "gdp_per_capita_constant_2015_usd": 79942.1196290248,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CYP",
+    "economy_name": "Cyprus",
+    "population_people": 1331370,
+    "gdp_per_capita_constant_2015_usd": 31505.2109375,
+    "internet_users_pct": 89.60099194,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "CZE",
+    "economy_name": "Czechia",
+    "population_people": 10672118,
+    "gdp_per_capita_constant_2015_usd": 20627.348651011,
+    "internet_users_pct": 84.54009378,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "DEU",
+    "economy_name": "Germany",
+    "population_people": 83177813,
+    "gdp_per_capita_constant_2015_usd": 44817.1316331389,
+    "internet_users_pct": 91.62984383,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "DJI",
+    "economy_name": "Djibouti",
+    "population_people": 1137096,
+    "gdp_per_capita_constant_2015_usd": 2959.78673011268,
+    "internet_users_pct": 63.77600098,
+    "electricity_access_pct": 65
+  },
+  {
+    "year": 2022,
+    "economy_code": "DMA",
+    "economy_name": "Dominica",
+    "population_people": 66826,
+    "gdp_per_capita_constant_2015_usd": 8590.92209069816,
+    "internet_users_pct": 80.57980347,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "DNK",
+    "economy_name": "Denmark",
+    "population_people": 5903037,
+    "gdp_per_capita_constant_2015_usd": 59108.7449374068,
+    "internet_users_pct": 97.86011812,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "DOM",
+    "economy_name": "Dominican Republic",
+    "population_people": 11230734,
+    "gdp_per_capita_constant_2015_usd": 8698.13592094395,
+    "internet_users_pct": 81.51269675,
+    "electricity_access_pct": 98.1
+  },
+  {
+    "year": 2022,
+    "economy_code": "DZA",
+    "economy_name": "Algeria",
+    "population_people": 45477389,
+    "gdp_per_capita_constant_2015_usd": 4544.46688060372,
+    "internet_users_pct": 74.78150177,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ECU",
+    "economy_name": "Ecuador",
+    "population_people": 17823897,
+    "gdp_per_capita_constant_2015_usd": 6107.49495006543,
+    "internet_users_pct": 69.71811356,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "EGY",
+    "economy_name": "Egypt, Arab Rep.",
+    "population_people": 112618250,
+    "gdp_per_capita_constant_2015_usd": 4029.78295458204,
+    "internet_users_pct": 72.19806556,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ERI",
+    "economy_name": "Eritrea",
+    "population_people": 3409447,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": null,
+    "electricity_access_pct": 55.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "ESP",
+    "economy_name": "Spain",
+    "population_people": 47786102,
+    "gdp_per_capita_constant_2015_usd": 28203.1093419474,
+    "internet_users_pct": 94.4855432,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "EST",
+    "economy_name": "Estonia",
+    "population_people": 1348840,
+    "gdp_per_capita_constant_2015_usd": 21023.2994937246,
+    "internet_users_pct": 91.52016546,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ETH",
+    "economy_name": "Ethiopia",
+    "population_people": 125384287,
+    "gdp_per_capita_constant_2015_usd": 811.177729337321,
+    "internet_users_pct": 17.9836998,
+    "electricity_access_pct": 55
+  },
+  {
+    "year": 2022,
+    "economy_code": "FIN",
+    "economy_name": "Finland",
+    "population_people": 5556106,
+    "gdp_per_capita_constant_2015_usd": 46016.1492103929,
+    "internet_users_pct": 92.98879471,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "FJI",
+    "economy_name": "Fiji",
+    "population_people": 919422,
+    "gdp_per_capita_constant_2015_usd": 5291.51692439451,
+    "internet_users_pct": 72.56549835,
+    "electricity_access_pct": 92
+  },
+  {
+    "year": 2022,
+    "economy_code": "FRA",
+    "economy_name": "France",
+    "population_people": 68184457,
+    "gdp_per_capita_constant_2015_usd": 38868.3303330557,
+    "internet_users_pct": 85.33331734,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "FRO",
+    "economy_name": "Faroe Islands",
+    "population_people": 53903,
+    "gdp_per_capita_constant_2015_usd": 57784.7223702914,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "FSM",
+    "economy_name": "Micronesia, Fed. Sts.",
+    "population_people": 112114,
+    "gdp_per_capita_constant_2015_usd": 2928.52464245951,
+    "internet_users_pct": 39.0279007,
+    "electricity_access_pct": 85.3
+  },
+  {
+    "year": 2022,
+    "economy_code": "GAB",
+    "economy_name": "Gabon",
+    "population_people": 2430747,
+    "gdp_per_capita_constant_2015_usd": 6527.48207901861,
+    "internet_users_pct": 67.67169952,
+    "electricity_access_pct": 93.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "GBR",
+    "economy_name": "United Kingdom",
+    "population_people": 67636000,
+    "gdp_per_capita_constant_2015_usd": 48410.095170282,
+    "internet_users_pct": 95.46530151,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "GEO",
+    "economy_name": "Georgia",
+    "population_people": 3712502,
+    "gdp_per_capita_constant_2015_usd": 5736.30449578597,
+    "internet_users_pct": 78.71127536,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "GHA",
+    "economy_name": "Ghana",
+    "population_people": 33149152,
+    "gdp_per_capita_constant_2015_usd": 2067.20895855521,
+    "internet_users_pct": 69.91329956,
+    "electricity_access_pct": 85.1
+  },
+  {
+    "year": 2022,
+    "economy_code": "GIB",
+    "economy_name": "Gibraltar",
+    "population_people": 37609,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "GIN",
+    "economy_name": "Guinea",
+    "population_people": 14055137,
+    "gdp_per_capita_constant_2015_usd": 987.502501465337,
+    "internet_users_pct": 31.31399918,
+    "electricity_access_pct": 47.7
+  },
+  {
+    "year": 2022,
+    "economy_code": "GMB",
+    "economy_name": "Gambia, The",
+    "population_people": 2636470,
+    "gdp_per_capita_constant_2015_usd": 710.686979216316,
+    "internet_users_pct": 48.22539902,
+    "electricity_access_pct": 65.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "GNB",
+    "economy_name": "Guinea-Bissau",
+    "population_people": 2105529,
+    "gdp_per_capita_constant_2015_usd": 752.149255217249,
+    "internet_users_pct": 27.67379951,
+    "electricity_access_pct": 37.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "GNQ",
+    "economy_name": "Equatorial Guinea",
+    "population_people": 1803545,
+    "gdp_per_capita_constant_2015_usd": 5524.24312418579,
+    "internet_users_pct": 63.65950012,
+    "electricity_access_pct": 67
+  },
+  {
+    "year": 2022,
+    "economy_code": "GRC",
+    "economy_name": "Greece",
+    "population_people": 10437805,
+    "gdp_per_capita_constant_2015_usd": 20550.5049158297,
+    "internet_users_pct": 83.17066333,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "GRD",
+    "economy_name": "Grenada",
+    "population_people": 116913,
+    "gdp_per_capita_constant_2015_usd": 9406.19337643226,
+    "internet_users_pct": 68.42030334,
+    "electricity_access_pct": 94.2
+  },
+  {
+    "year": 2022,
+    "economy_code": "GRL",
+    "economy_name": "Greenland",
+    "population_people": 56661,
+    "gdp_per_capita_constant_2015_usd": 49679.3365414895,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "GTM",
+    "economy_name": "Guatemala",
+    "population_people": 17847877,
+    "gdp_per_capita_constant_2015_usd": 4383.90326160481,
+    "internet_users_pct": 54.40430069,
+    "electricity_access_pct": 99.1
+  },
+  {
+    "year": 2022,
+    "economy_code": "GUM",
+    "economy_name": "Guam",
+    "population_people": 165180,
+    "gdp_per_capita_constant_2015_usd": 34627.9862781837,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "GUY",
+    "economy_name": "Guyana",
+    "population_people": 821637,
+    "gdp_per_capita_constant_2015_usd": 17365.3336428642,
+    "internet_users_pct": 76.56240082,
+    "electricity_access_pct": 93
+  },
+  {
+    "year": 2022,
+    "economy_code": "HKG",
+    "economy_name": "Hong Kong SAR, China",
+    "population_people": 7346100,
+    "gdp_per_capita_constant_2015_usd": 43281.0067309646,
+    "internet_users_pct": 95.61357052,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "HND",
+    "economy_name": "Honduras",
+    "population_people": 10463872,
+    "gdp_per_capita_constant_2015_usd": 2482.22384904714,
+    "internet_users_pct": 56.88069916,
+    "electricity_access_pct": 94.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "HRV",
+    "economy_name": "Croatia",
+    "population_people": 3855641,
+    "gdp_per_capita_constant_2015_usd": 16618.3333786183,
+    "internet_users_pct": 82.07155532,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "HTI",
+    "economy_name": "Haiti",
+    "population_people": 11503606,
+    "gdp_per_capita_constant_2015_usd": 1256.72143592448,
+    "internet_users_pct": 47.77470016,
+    "electricity_access_pct": 49.3
+  },
+  {
+    "year": 2022,
+    "economy_code": "HUN",
+    "economy_name": "Hungary",
+    "population_people": 9605074,
+    "gdp_per_capita_constant_2015_usd": 16487.7973935944,
+    "internet_users_pct": 89.14282688,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "IDN",
+    "economy_name": "Indonesia",
+    "population_people": 278830529,
+    "gdp_per_capita_constant_2015_usd": 4024.91225288391,
+    "internet_users_pct": 66.48461277,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "IMN",
+    "economy_name": "Isle of Man",
+    "population_people": 84132,
+    "gdp_per_capita_constant_2015_usd": 86100.5672917037,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "IND",
+    "economy_name": "India",
+    "population_people": 1425423212,
+    "gdp_per_capita_constant_2015_usd": 2098.21124476122,
+    "internet_users_pct": 55.9,
+    "electricity_access_pct": 99.2
+  },
+  {
+    "year": 2022,
+    "economy_code": "IRL",
+    "economy_name": "Ireland",
+    "population_people": 5212836,
+    "gdp_per_capita_constant_2015_usd": 97793.5366671697,
+    "internet_users_pct": 95.03690338,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "IRN",
+    "economy_name": "Iran, Islamic Rep.",
+    "population_people": 89524246,
+    "gdp_per_capita_constant_2015_usd": 5465.31447539413,
+    "internet_users_pct": 81.71649933,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "IRQ",
+    "economy_name": "Iraq",
+    "population_people": 44070551,
+    "gdp_per_capita_constant_2015_usd": 4412.99733146512,
+    "internet_users_pct": 78.71560926,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ISL",
+    "economy_name": "Iceland",
+    "population_people": 382003,
+    "gdp_per_capita_constant_2015_usd": 57626.2533717585,
+    "internet_users_pct": 97.58339691,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ISR",
+    "economy_name": "Israel",
+    "population_people": 9557500,
+    "gdp_per_capita_constant_2015_usd": 42539.2748766689,
+    "internet_users_pct": 91.85079615,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ITA",
+    "economy_name": "Italy",
+    "population_people": 59013667,
+    "gdp_per_capita_constant_2015_usd": 33891.8866526216,
+    "internet_users_pct": 85.06074504,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "JAM",
+    "economy_name": "Jamaica",
+    "population_people": 2839144,
+    "gdp_per_capita_constant_2015_usd": 5965.46127464873,
+    "internet_users_pct": 85.84329987,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "JOR",
+    "economy_name": "Jordan",
+    "population_people": 11256263,
+    "gdp_per_capita_constant_2015_usd": 4309.61432856804,
+    "internet_users_pct": 90.4999984,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "JPN",
+    "economy_name": "Japan",
+    "population_people": 125124989,
+    "gdp_per_capita_constant_2015_usd": 37448.3504824849,
+    "internet_users_pct": 84.92343147,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "KAZ",
+    "economy_name": "Kazakhstan",
+    "population_people": 20034609,
+    "gdp_per_capita_constant_2015_usd": 11058.3482413407,
+    "internet_users_pct": 92.29685266,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "KEN",
+    "economy_name": "Kenya",
+    "population_people": 54252461,
+    "gdp_per_capita_constant_2015_usd": 1747.53198804428,
+    "internet_users_pct": 29.40589905,
+    "electricity_access_pct": 76
+  },
+  {
+    "year": 2022,
+    "economy_code": "KGZ",
+    "economy_name": "Kyrgyz Republic",
+    "population_people": 6975220,
+    "gdp_per_capita_constant_2015_usd": 1212.17812721768,
+    "internet_users_pct": 84.1937027,
+    "electricity_access_pct": 99.7
+  },
+  {
+    "year": 2022,
+    "economy_code": "KHM",
+    "economy_name": "Cambodia",
+    "population_people": 17201724,
+    "gdp_per_capita_constant_2015_usd": 2011.27433313262,
+    "internet_users_pct": 65.49079895,
+    "electricity_access_pct": 92.3
+  },
+  {
+    "year": 2022,
+    "economy_code": "KIR",
+    "economy_name": "Kiribati",
+    "population_people": 130469,
+    "gdp_per_capita_constant_2015_usd": 1960.15475844976,
+    "internet_users_pct": 84.99849701,
+    "electricity_access_pct": 94.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "KNA",
+    "economy_name": "St. Kitts and Nevis",
+    "population_people": 46709,
+    "gdp_per_capita_constant_2015_usd": 21050.758653729,
+    "internet_users_pct": 75.76229858,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "KOR",
+    "economy_name": "Korea, Rep.",
+    "population_people": 51672569,
+    "gdp_per_capita_constant_2015_usd": 35809.0138105144,
+    "internet_users_pct": 97.16855335,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "KWT",
+    "economy_name": "Kuwait",
+    "population_people": 4589643,
+    "gdp_per_capita_constant_2015_usd": 26579.8321646876,
+    "internet_users_pct": 99.74729919,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "LAO",
+    "economy_name": "Lao PDR",
+    "population_people": 7559007,
+    "gdp_per_capita_constant_2015_usd": 2589.05015191628,
+    "internet_users_pct": 64.54000092,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "LBN",
+    "economy_name": "Lebanon",
+    "population_people": 5744489,
+    "gdp_per_capita_constant_2015_usd": 5909.03651555028,
+    "internet_users_pct": 81.46479797,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "LBR",
+    "economy_name": "Liberia",
+    "population_people": 5373294,
+    "gdp_per_capita_constant_2015_usd": 638.005183858289,
+    "internet_users_pct": 30.38010025,
+    "electricity_access_pct": 31.8
+  },
+  {
+    "year": 2022,
+    "economy_code": "LBY",
+    "economy_name": "Libya",
+    "population_people": 7223805,
+    "gdp_per_capita_constant_2015_usd": 7002.68189296358,
+    "internet_users_pct": 80.64720154,
+    "electricity_access_pct": 70
+  },
+  {
+    "year": 2022,
+    "economy_code": "LCA",
+    "economy_name": "St. Lucia",
+    "population_people": 178781,
+    "gdp_per_capita_constant_2015_usd": 11258.6110790564,
+    "internet_users_pct": 66.95159912,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "LIE",
+    "economy_name": "Liechtenstein",
+    "population_people": 39493,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": 97.88069916,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "LKA",
+    "economy_name": "Sri Lanka",
+    "population_people": 22181000,
+    "gdp_per_capita_constant_2015_usd": 4033.14560306744,
+    "internet_users_pct": 48.3,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "LSO",
+    "economy_name": "Lesotho",
+    "population_people": 2286110,
+    "gdp_per_capita_constant_2015_usd": 967.51928598325,
+    "internet_users_pct": 48.06959915,
+    "electricity_access_pct": 50
+  },
+  {
+    "year": 2022,
+    "economy_code": "LTU",
+    "economy_name": "Lithuania",
+    "population_people": 2831639,
+    "gdp_per_capita_constant_2015_usd": 18873.8427527274,
+    "internet_users_pct": 87.72420219,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "LUX",
+    "economy_name": "Luxembourg",
+    "population_people": 653103,
+    "gdp_per_capita_constant_2015_usd": 107467.123965307,
+    "internet_users_pct": 98.24203749,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "LVA",
+    "economy_name": "Latvia",
+    "population_people": 1879383,
+    "gdp_per_capita_constant_2015_usd": 16421.3748596,
+    "internet_users_pct": 91.03009059,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MAC",
+    "economy_name": "Macao SAR, China",
+    "population_people": 677300,
+    "gdp_per_capita_constant_2015_usd": 34000.7134128308,
+    "internet_users_pct": 89.48549652,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MAF",
+    "economy_name": "St. Martin (French part)",
+    "population_people": 28870,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MAR",
+    "economy_name": "Morocco",
+    "population_people": 37329064,
+    "gdp_per_capita_constant_2015_usd": 3334.91162109375,
+    "internet_users_pct": 89.9,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MCO",
+    "economy_name": "Monaco",
+    "population_people": 38931,
+    "gdp_per_capita_constant_2015_usd": 214359.505134575,
+    "internet_users_pct": 98.75189972,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MDA",
+    "economy_name": "Moldova",
+    "population_people": 2528654,
+    "gdp_per_capita_constant_2015_usd": 3610.14315344719,
+    "internet_users_pct": 74.91899872,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MDG",
+    "economy_name": "Madagascar",
+    "population_people": 30437261,
+    "gdp_per_capita_constant_2015_usd": 438.438112102315,
+    "internet_users_pct": 17.81170082,
+    "electricity_access_pct": 36.1
+  },
+  {
+    "year": 2022,
+    "economy_code": "MDV",
+    "economy_name": "Maldives",
+    "population_people": 524106,
+    "gdp_per_capita_constant_2015_usd": 10939.9963271738,
+    "internet_users_pct": 83.91189054,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MEX",
+    "economy_name": "Mexico",
+    "population_people": 128613117,
+    "gdp_per_capita_constant_2015_usd": 10013.2479227064,
+    "internet_users_pct": 78.63217894,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MHL",
+    "economy_name": "Marshall Islands",
+    "population_people": 40077,
+    "gdp_per_capita_constant_2015_usd": 5591.46393193103,
+    "internet_users_pct": 64.26719666,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MKD",
+    "economy_name": "North Macedonia",
+    "population_people": 1831712,
+    "gdp_per_capita_constant_2015_usd": 6250.62720952063,
+    "internet_users_pct": 83.85030365,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MLI",
+    "economy_name": "Mali",
+    "population_people": 23072640,
+    "gdp_per_capita_constant_2015_usd": 877.817842434642,
+    "internet_users_pct": 35.19919968,
+    "electricity_access_pct": 53
+  },
+  {
+    "year": 2022,
+    "economy_code": "MLT",
+    "economy_name": "Malta",
+    "population_people": 531113,
+    "gdp_per_capita_constant_2015_usd": 31447.3917315418,
+    "internet_users_pct": 91.54062209,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MMR",
+    "economy_name": "Myanmar",
+    "population_people": 53756787,
+    "gdp_per_capita_constant_2015_usd": 1174.76697945755,
+    "internet_users_pct": null,
+    "electricity_access_pct": 73.7
+  },
+  {
+    "year": 2022,
+    "economy_code": "MNE",
+    "economy_name": "Montenegro",
+    "population_people": 623591,
+    "gdp_per_capita_constant_2015_usd": 7773.59958791074,
+    "internet_users_pct": 88.22192026,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MNG",
+    "economy_name": "Mongolia",
+    "population_people": 3433748,
+    "gdp_per_capita_constant_2015_usd": 4205.88554513551,
+    "internet_users_pct": 81.07720184,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MNP",
+    "economy_name": "Northern Mariana Islands",
+    "population_people": 46078,
+    "gdp_per_capita_constant_2015_usd": 19461.8611129744,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MOZ",
+    "economy_name": "Mozambique",
+    "population_people": 32656246,
+    "gdp_per_capita_constant_2015_usd": 596.086630918965,
+    "internet_users_pct": 18.96220016,
+    "electricity_access_pct": 33.2
+  },
+  {
+    "year": 2022,
+    "economy_code": "MRT",
+    "economy_name": "Mauritania",
+    "population_people": 4875637,
+    "gdp_per_capita_constant_2015_usd": 1580.70391528747,
+    "internet_users_pct": 42.46450043,
+    "electricity_access_pct": 49
+  },
+  {
+    "year": 2022,
+    "economy_code": "MUS",
+    "economy_name": "Mauritius",
+    "population_people": 1262523,
+    "gdp_per_capita_constant_2015_usd": 10703.2364271462,
+    "internet_users_pct": 75.5,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "MWI",
+    "economy_name": "Malawi",
+    "population_people": 20568728,
+    "gdp_per_capita_constant_2015_usd": 560.635759714941,
+    "internet_users_pct": 16.84830093,
+    "electricity_access_pct": 14
+  },
+  {
+    "year": 2022,
+    "economy_code": "MYS",
+    "economy_name": "Malaysia",
+    "population_people": 34695493,
+    "gdp_per_capita_constant_2015_usd": 11191.6511756943,
+    "internet_users_pct": 97.3986404,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "NAM",
+    "economy_name": "Namibia",
+    "population_people": 2889662,
+    "gdp_per_capita_constant_2015_usd": 3905.55135268164,
+    "internet_users_pct": 62.99720001,
+    "electricity_access_pct": 56.2
+  },
+  {
+    "year": 2022,
+    "economy_code": "NCL",
+    "economy_name": "New Caledonia",
+    "population_people": 287123,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "NER",
+    "economy_name": "Niger",
+    "population_people": 25311973,
+    "gdp_per_capita_constant_2015_usd": 565.873385794358,
+    "internet_users_pct": 13.08749962,
+    "electricity_access_pct": 19.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "NGA",
+    "economy_name": "Nigeria",
+    "population_people": 223150896,
+    "gdp_per_capita_constant_2015_usd": 2254.29080414598,
+    "internet_users_pct": 39.14720154,
+    "electricity_access_pct": 60.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "NIC",
+    "economy_name": "Nicaragua",
+    "population_people": 6730654,
+    "gdp_per_capita_constant_2015_usd": 2175.73845893874,
+    "internet_users_pct": 59.38000107,
+    "electricity_access_pct": 86.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "NLD",
+    "economy_name": "Netherlands",
+    "population_people": 17700982,
+    "gdp_per_capita_constant_2015_usd": 51777.5314828276,
+    "internet_users_pct": 92.51968504,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "NOR",
+    "economy_name": "Norway",
+    "population_people": 5457127,
+    "gdp_per_capita_constant_2015_usd": 83756.7383805061,
+    "internet_users_pct": 98.99997764,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "NPL",
+    "economy_name": "Nepal",
+    "population_people": 29715436,
+    "gdp_per_capita_constant_2015_usd": 1113.55462341223,
+    "internet_users_pct": 45.45080185,
+    "electricity_access_pct": 91.3
+  },
+  {
+    "year": 2022,
+    "economy_code": "NRU",
+    "economy_name": "Naoero",
+    "population_people": 11801,
+    "gdp_per_capita_constant_2015_usd": 8260.97398991108,
+    "internet_users_pct": 83.22660065,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "NZL",
+    "economy_name": "New Zealand",
+    "population_people": 5081700,
+    "gdp_per_capita_constant_2015_usd": 42716.0866783034,
+    "internet_users_pct": 93.07289886,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "OMN",
+    "economy_name": "Oman",
+    "population_people": 4730226,
+    "gdp_per_capita_constant_2015_usd": 18792.4460565306,
+    "internet_users_pct": 95.24530029,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "PAK",
+    "economy_name": "Pakistan",
+    "population_people": 243700667,
+    "gdp_per_capita_constant_2015_usd": 1642.28066974826,
+    "internet_users_pct": null,
+    "electricity_access_pct": 95
+  },
+  {
+    "year": 2022,
+    "economy_code": "PAN",
+    "economy_name": "Panama",
+    "population_people": 4400773,
+    "gdp_per_capita_constant_2015_usd": 15956.0671087873,
+    "internet_users_pct": 67.2838974,
+    "electricity_access_pct": 95
+  },
+  {
+    "year": 2022,
+    "economy_code": "PER",
+    "economy_name": "Peru",
+    "population_people": 33475438,
+    "gdp_per_capita_constant_2015_usd": 6671.28902042137,
+    "internet_users_pct": 74.67495213,
+    "electricity_access_pct": 96.2
+  },
+  {
+    "year": 2022,
+    "economy_code": "PHL",
+    "economy_name": "Philippines",
+    "population_people": 113964338,
+    "gdp_per_capita_constant_2015_usd": 3577.70136573244,
+    "internet_users_pct": 75.21114422,
+    "electricity_access_pct": 94.8
+  },
+  {
+    "year": 2022,
+    "economy_code": "PLW",
+    "economy_name": "Palau",
+    "population_people": 17759,
+    "gdp_per_capita_constant_2015_usd": 12889.6216058288,
+    "internet_users_pct": 82.56749725,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "PNG",
+    "economy_name": "Papua New Guinea",
+    "population_people": 10203169,
+    "gdp_per_capita_constant_2015_usd": 2467.24008628973,
+    "internet_users_pct": 18.25659943,
+    "electricity_access_pct": 19
+  },
+  {
+    "year": 2022,
+    "economy_code": "POL",
+    "economy_name": "Poland",
+    "population_people": 36821749,
+    "gdp_per_capita_constant_2015_usd": 17303.64494323,
+    "internet_users_pct": 86.94113479,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "PRI",
+    "economy_name": "Puerto Rico (US)",
+    "population_people": 3220148,
+    "gdp_per_capita_constant_2015_usd": 29643.6396279994,
+    "internet_users_pct": 87.29178106,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "PRK",
+    "economy_name": "Korea, Dem. People's Rep.",
+    "population_people": 26328845,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": null,
+    "electricity_access_pct": 54.7
+  },
+  {
+    "year": 2022,
+    "economy_code": "PRT",
+    "economy_name": "Portugal",
+    "population_people": 10434332,
+    "gdp_per_capita_constant_2015_usd": 22042.8680283647,
+    "internet_users_pct": 84.49690644,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "PRY",
+    "economy_name": "Paraguay",
+    "population_people": 6760464,
+    "gdp_per_capita_constant_2015_usd": 6204.20811531911,
+    "internet_users_pct": 76.25916611,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "PSE",
+    "economy_name": "West Bank and Gaza",
+    "population_people": 5043612,
+    "gdp_per_capita_constant_2015_usd": 3099.9609010368,
+    "internet_users_pct": 88.64690554,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "PYF",
+    "economy_name": "French Polynesia",
+    "population_people": 280378,
+    "gdp_per_capita_constant_2015_usd": 20160.4994298379,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "QAT",
+    "economy_name": "Qatar",
+    "population_people": 2657333,
+    "gdp_per_capita_constant_2015_usd": 64315.6263643699,
+    "internet_users_pct": 98.03800201,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "ROU",
+    "economy_name": "Romania",
+    "population_people": 19048502,
+    "gdp_per_capita_constant_2015_usd": 12076.3033811896,
+    "internet_users_pct": 85.50309124,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "RUS",
+    "economy_name": "Russian Federation",
+    "population_people": 144236933,
+    "gdp_per_capita_constant_2015_usd": 10119.115234375,
+    "internet_users_pct": 90.41799163,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "RWA",
+    "economy_name": "Rwanda",
+    "population_people": 13651030,
+    "gdp_per_capita_constant_2015_usd": 935.89483254264,
+    "internet_users_pct": 28.01679993,
+    "electricity_access_pct": 50.6
+  },
+  {
+    "year": 2022,
+    "economy_code": "SAU",
+    "economy_name": "Saudi Arabia",
+    "population_people": 32175224,
+    "gdp_per_capita_constant_2015_usd": 26706.917926066,
+    "internet_users_pct": 100,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SDN",
+    "economy_name": "Sudan",
+    "population_people": 49383346,
+    "gdp_per_capita_constant_2015_usd": 973.225280761719,
+    "internet_users_pct": null,
+    "electricity_access_pct": 63.2
+  },
+  {
+    "year": 2022,
+    "economy_code": "SEN",
+    "economy_name": "Senegal",
+    "population_people": 17651103,
+    "gdp_per_capita_constant_2015_usd": 1433.19918752288,
+    "internet_users_pct": 56.82830048,
+    "electricity_access_pct": 67.9
+  },
+  {
+    "year": 2022,
+    "economy_code": "SGP",
+    "economy_name": "Singapore",
+    "population_people": 5637022,
+    "gdp_per_capita_constant_2015_usd": 68271.0897525302,
+    "internet_users_pct": 95.95386476,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SLB",
+    "economy_name": "Solomon Islands",
+    "population_people": 781066,
+    "gdp_per_capita_constant_2015_usd": 1788.61727922057,
+    "internet_users_pct": 28.01729965,
+    "electricity_access_pct": 76
+  },
+  {
+    "year": 2022,
+    "economy_code": "SLE",
+    "economy_name": "Sierra Leone",
+    "population_people": 8276807,
+    "gdp_per_capita_constant_2015_usd": 1077.08884538507,
+    "internet_users_pct": 21.50880051,
+    "electricity_access_pct": 29.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "SLV",
+    "economy_name": "El Salvador",
+    "population_people": 6280319,
+    "gdp_per_capita_constant_2015_usd": 4355.96037108555,
+    "internet_users_pct": 60.05609894,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SMR",
+    "economy_name": "San Marino",
+    "population_people": 33755,
+    "gdp_per_capita_constant_2015_usd": 51277.3242468583,
+    "internet_users_pct": 97.32790375,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SOM",
+    "economy_name": "Somalia, Fed. Rep.",
+    "population_people": 17801897,
+    "gdp_per_capita_constant_2015_usd": 460.046226685238,
+    "internet_users_pct": 27.6,
+    "electricity_access_pct": 48.9
+  },
+  {
+    "year": 2022,
+    "economy_code": "SRB",
+    "economy_name": "Serbia",
+    "population_people": 6664449,
+    "gdp_per_capita_constant_2015_usd": 7862.95387364846,
+    "internet_users_pct": 83.53825397,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SSD",
+    "economy_name": "South Sudan",
+    "population_people": 11021177,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": null,
+    "electricity_access_pct": 8.4
+  },
+  {
+    "year": 2022,
+    "economy_code": "STP",
+    "economy_name": "Sao Tome and Principe",
+    "population_people": 226305,
+    "gdp_per_capita_constant_2015_usd": 1403.23356704678,
+    "internet_users_pct": 58.56779861,
+    "electricity_access_pct": 78
+  },
+  {
+    "year": 2022,
+    "economy_code": "SUR",
+    "economy_name": "Suriname",
+    "population_people": 623164,
+    "gdp_per_capita_constant_2015_usd": 7081.33357325783,
+    "internet_users_pct": null,
+    "electricity_access_pct": 99
+  },
+  {
+    "year": 2022,
+    "economy_code": "SVK",
+    "economy_name": "Slovak Republic",
+    "population_people": 5431752,
+    "gdp_per_capita_constant_2015_usd": 18964.8298400624,
+    "internet_users_pct": 89.06766196,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SVN",
+    "economy_name": "Slovenia",
+    "population_people": 2112076,
+    "gdp_per_capita_constant_2015_usd": 25275.715967757,
+    "internet_users_pct": 88.91248552,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SWE",
+    "economy_name": "Sweden",
+    "population_people": 10486941,
+    "gdp_per_capita_constant_2015_usd": 54304.1877501033,
+    "internet_users_pct": 95.00970335,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SWZ",
+    "economy_name": "Eswatini",
+    "population_people": 1218917,
+    "gdp_per_capita_constant_2015_usd": 3695.64957179548,
+    "internet_users_pct": 57.34370041,
+    "electricity_access_pct": 82.3
+  },
+  {
+    "year": 2022,
+    "economy_code": "SXM",
+    "economy_name": "Sint Maarten (Dutch part)",
+    "population_people": 42139,
+    "gdp_per_capita_constant_2015_usd": 33523.6042042737,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SYC",
+    "economy_name": "Seychelles",
+    "population_people": 119878,
+    "gdp_per_capita_constant_2015_usd": 15471.2109575418,
+    "internet_users_pct": 84.83380127,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "SYR",
+    "economy_name": "Syrian Arab Republic",
+    "population_people": 22462173,
+    "gdp_per_capita_constant_2015_usd": 716.943843933856,
+    "internet_users_pct": null,
+    "electricity_access_pct": 89
+  },
+  {
+    "year": 2022,
+    "economy_code": "TCA",
+    "economy_name": "Turks and Caicos Islands",
+    "population_people": 45847,
+    "gdp_per_capita_constant_2015_usd": 48307.3079245499,
+    "internet_users_pct": null,
+    "electricity_access_pct": 99.9
+  },
+  {
+    "year": 2022,
+    "economy_code": "TCD",
+    "economy_name": "Chad",
+    "population_people": 18455316,
+    "gdp_per_capita_constant_2015_usd": 862.602128172536,
+    "internet_users_pct": 11.17029953,
+    "electricity_access_pct": 11.7
+  },
+  {
+    "year": 2022,
+    "economy_code": "TGO",
+    "economy_name": "Togo",
+    "population_people": 8068616,
+    "gdp_per_capita_constant_2015_usd": 970.535975822983,
+    "internet_users_pct": 35.60749817,
+    "electricity_access_pct": 57.2
+  },
+  {
+    "year": 2022,
+    "economy_code": "THA",
+    "economy_name": "Thailand",
+    "population_people": 71735329,
+    "gdp_per_capita_constant_2015_usd": 6279.82250415973,
+    "internet_users_pct": 87.97724503,
+    "electricity_access_pct": 99.9
+  },
+  {
+    "year": 2022,
+    "economy_code": "TJK",
+    "economy_name": "Tajikistan",
+    "population_people": 10182222,
+    "gdp_per_capita_constant_2015_usd": 1325.75545290849,
+    "internet_users_pct": 48.91429901,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "TKM",
+    "economy_name": "Turkmenistan",
+    "population_people": 7230193,
+    "gdp_per_capita_constant_2015_usd": 7549.25301930356,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "TLS",
+    "economy_name": "Timor-Leste",
+    "population_people": 1369295,
+    "gdp_per_capita_constant_2015_usd": 1579.71084680858,
+    "internet_users_pct": null,
+    "electricity_access_pct": 99.7
+  },
+  {
+    "year": 2022,
+    "economy_code": "TON",
+    "economy_name": "Tonga",
+    "population_people": 105042,
+    "gdp_per_capita_constant_2015_usd": 4533.96809820124,
+    "internet_users_pct": 61.60739899,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "TTO",
+    "economy_name": "Trinidad and Tobago",
+    "population_people": 1365805,
+    "gdp_per_capita_constant_2015_usd": 15712.230497272,
+    "internet_users_pct": 81.69760132,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "TUN",
+    "economy_name": "Tunisia",
+    "population_people": 12119334,
+    "gdp_per_capita_constant_2015_usd": 3986.54558325666,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "TUR",
+    "economy_name": "Turkiye",
+    "population_people": 84979913,
+    "gdp_per_capita_constant_2015_usd": 14273.5747654873,
+    "internet_users_pct": 83.43716576,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "TUV",
+    "economy_name": "Tuvalu",
+    "population_people": 9992,
+    "gdp_per_capita_constant_2015_usd": 3953.66795349958,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "TZA",
+    "economy_name": "Tanzania",
+    "population_people": 64711821,
+    "gdp_per_capita_constant_2015_usd": 1070.58532714844,
+    "internet_users_pct": 26.86059952,
+    "electricity_access_pct": 45.8
+  },
+  {
+    "year": 2022,
+    "economy_code": "UGA",
+    "economy_name": "Uganda",
+    "population_people": 47312719,
+    "gdp_per_capita_constant_2015_usd": 933.094056370423,
+    "internet_users_pct": 9.636899948,
+    "electricity_access_pct": 47.1
+  },
+  {
+    "year": 2022,
+    "economy_code": "UKR",
+    "economy_name": "Ukraine",
+    "population_people": 41048766,
+    "gdp_per_capita_constant_2015_usd": 1874.66296386719,
+    "internet_users_pct": 80.47429657,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "URY",
+    "economy_name": "Uruguay",
+    "population_people": 3390913,
+    "gdp_per_capita_constant_2015_usd": 18249.2912168828,
+    "internet_users_pct": 89.87304314,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "USA",
+    "economy_name": "United States",
+    "population_people": 333996304,
+    "gdp_per_capita_constant_2015_usd": 64322.2332819139,
+    "internet_users_pct": 92.72850037,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "UZB",
+    "economy_name": "Uzbekistan",
+    "population_people": 34938955,
+    "gdp_per_capita_constant_2015_usd": 4109.08421031655,
+    "internet_users_pct": 83.90000012,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "VCT",
+    "economy_name": "St. Vincent and the Grenadines",
+    "population_people": 102046,
+    "gdp_per_capita_constant_2015_usd": 8532.7381341339,
+    "internet_users_pct": 74.75479889,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "VEN",
+    "economy_name": "Venezuela, RB",
+    "population_people": 28213017,
+    "gdp_per_capita_constant_2015_usd": 1376.93801227125,
+    "internet_users_pct": 75.82180023,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "VGB",
+    "economy_name": "British Virgin Islands",
+    "population_people": 38319,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "VIR",
+    "economy_name": "Virgin Islands (U.S.)",
+    "population_people": 105413,
+    "gdp_per_capita_constant_2015_usd": 36983.431060272,
+    "internet_users_pct": null,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "VNM",
+    "economy_name": "Viet Nam",
+    "population_people": 99680655,
+    "gdp_per_capita_constant_2015_usd": 3617.66311280437,
+    "internet_users_pct": 78.58999918,
+    "electricity_access_pct": 100
+  },
+  {
+    "year": 2022,
+    "economy_code": "VUT",
+    "economy_name": "Vanuatu",
+    "population_people": 313046,
+    "gdp_per_capita_constant_2015_usd": 3073.86062658113,
+    "internet_users_pct": null,
+    "electricity_access_pct": 70
+  },
+  {
+    "year": 2022,
+    "economy_code": "WSM",
+    "economy_name": "Samoa",
+    "population_people": 215261,
+    "gdp_per_capita_constant_2015_usd": 4095.15875576978,
+    "internet_users_pct": null,
+    "electricity_access_pct": 98.3
+  },
+  {
+    "year": 2022,
+    "economy_code": "XKX",
+    "economy_name": "Kosovo",
+    "population_people": 1768096,
+    "gdp_per_capita_constant_2015_usd": 4666.38918595784,
+    "internet_users_pct": null,
+    "electricity_access_pct": null
+  },
+  {
+    "year": 2022,
+    "economy_code": "YEM",
+    "economy_name": "Yemen, Rep.",
+    "population_people": 38222876,
+    "gdp_per_capita_constant_2015_usd": null,
+    "internet_users_pct": null,
+    "electricity_access_pct": 76
+  },
+  {
+    "year": 2022,
+    "economy_code": "ZAF",
+    "economy_name": "South Africa",
+    "population_people": 62378410,
+    "gdp_per_capita_constant_2015_usd": 5786.86505344736,
+    "internet_users_pct": 78.29319763,
+    "electricity_access_pct": 86.5
+  },
+  {
+    "year": 2022,
+    "economy_code": "ZMB",
+    "economy_name": "Zambia",
+    "population_people": 20152938,
+    "gdp_per_capita_constant_2015_usd": 1298.8480495593,
+    "internet_users_pct": 15,
+    "electricity_access_pct": 47.8
+  },
+  {
+    "year": 2022,
+    "economy_code": "ZWE",
+    "economy_name": "Zimbabwe",
+    "population_people": 16069056,
+    "gdp_per_capita_constant_2015_usd": 1369.19761495571,
+    "internet_users_pct": 36.25650024,
+    "electricity_access_pct": 50.1
+  }
+]

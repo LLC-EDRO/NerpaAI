@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="388" viewBox="0 0 1400 388" role="img" aria-labelledby="title desc">
+  <title id="title">NerpaAI Free — из данных в презентацию</title>
+  <desc id="desc">Пользовательский PPTX, языковые модели, проверяемые данные и редактируемые слайды.</desc>
+  <defs>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#deded6" stroke-width="1" opacity=".6"/></pattern>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5264ff"/><stop offset="1" stop-color="#393fc8"/></linearGradient>
+  </defs>
+  <rect width="1400" height="388" rx="28" fill="#f6f5ef"/>
+  <rect width="1400" height="388" rx="28" fill="url(#grid)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="58" y="41" width="224" height="30" rx="15" fill="#e9eaff"/>
+    <text x="77" y="61" fill="#4656dc" font-size="12" font-weight="700" letter-spacing="1.4">AI PRESENTATION ENGINE</text>
+    <text x="57" y="153" fill="#181a21" font-size="73" font-weight="800" letter-spacing="-3">Nerpa<tspan fill="#4e5eff">AI</tspan></text>
+    <rect x="391" y="105" width="102" height="43" rx="12" fill="#ffd64f"/>
+    <text x="411" y="135" fill="#181a21" font-size="25" font-weight="700">Free</text>
+    <text x="60" y="214" fill="#1c2130" font-size="34" font-weight="700" letter-spacing="-.6">Из данных — в презентацию.</text>
+    <text x="60" y="253" fill="#626b7e" font-size="19">Ваш шаблон. Подтверждённые факты. Редактируемый результат.</text>
+    <g font-size="12" font-weight="700" fill="#414d65">
+      <rect x="60" y="300" width="83" height="28" rx="14" fill="#e6e9f1"/><text x="80" y="319">PPTX</text>
+      <rect x="151" y="300" width="72" height="28" rx="14" fill="#e6e9f1"/><text x="174" y="319">PDF</text>
+      <rect x="231" y="300" width="124" height="28" rx="14" fill="#e6e9f1"/><text x="250" y="319">7 ДАТАСЕТОВ</text>
+      <rect x="363" y="300" width="178" height="28" rx="14" fill="#e6e9f1"/><text x="382" y="319">3 ПРЕДМЕТНЫЕ ТЕМЫ</text>
+    </g>
+    <rect x="866" y="57" width="447" height="264" rx="23" fill="#171b29" transform="rotate(4 1090 189)" opacity=".11"/>
+    <rect x="856" y="50" width="447" height="264" rx="23" fill="url(#card)"/>
+    <text x="888" y="89" font-size="11" fill="#c8ceff" letter-spacing="2">FROM EVIDENCE TO SLIDES</text>
+    <rect x="887" y="113" width="245" height="12" rx="6" fill="white" opacity=".95"/>
+    <rect x="887" y="136" width="167" height="9" rx="4.5" fill="white" opacity=".4"/>
+    <rect x="887" y="177" width="65" height="97" rx="10" fill="#8492ff"/>
+    <rect x="964" y="151" width="65" height="123" rx="10" fill="#adb7ff"/>
+    <rect x="1041" y="126" width="65" height="148" rx="10" fill="#ffd64f"/>
+    <circle cx="1188" cy="218" r="52" fill="none" stroke="#8792f9" stroke-width="20"/>
+    <circle cx="1188" cy="218" r="52" fill="none" stroke="#ffd64f" stroke-width="20" stroke-dasharray="205 327" transform="rotate(-90 1188 218)"/>
+    <path d="M1321 44v34M1304 61h34" stroke="#fb745d" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="824" cy="307" r="9" fill="#fb745d"/>
+  </g>
+</svg>

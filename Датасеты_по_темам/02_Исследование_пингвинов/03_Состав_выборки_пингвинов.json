@@ -1,0 +1,47 @@
+[
+  {
+    "year": 2007,
+    "species": "Adelie",
+    "observed_birds_n": 50
+  },
+  {
+    "year": 2007,
+    "species": "Chinstrap",
+    "observed_birds_n": 26
+  },
+  {
+    "year": 2007,
+    "species": "Gentoo",
+    "observed_birds_n": 34
+  },
+  {
+    "year": 2008,
+    "species": "Adelie",
+    "observed_birds_n": 50
+  },
+  {
+    "year": 2008,
+    "species": "Chinstrap",
+    "observed_birds_n": 18
+  },
+  {
+    "year": 2008,
+    "species": "Gentoo",
+    "observed_birds_n": 46
+  },
+  {
+    "year": 2009,
+    "species": "Adelie",
+    "observed_birds_n": 52
+  },
+  {
+    "year": 2009,
+    "species": "Chinstrap",
+    "observed_birds_n": 24
+  },
+  {
+    "year": 2009,
+    "species": "Gentoo",
+    "observed_birds_n": 44
+  }
+]
