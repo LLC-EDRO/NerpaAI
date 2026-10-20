@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="388" viewBox="0 0 1400 388" role="img" aria-labelledby="title desc">
-  <title id="title">NerpaAI Free — из данных в презентацию</title>
+  <title id="title">NerpaAI — из данных в презентацию</title>
   <desc id="desc">Пользовательский PPTX, языковые модели, проверяемые данные и редактируемые слайды.</desc>
   <defs>
     <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#deded6" stroke-width="1" opacity=".6"/></pattern>
@@ -11,8 +11,6 @@
     <rect x="58" y="41" width="224" height="30" rx="15" fill="#e9eaff"/>
     <text x="77" y="61" fill="#4656dc" font-size="12" font-weight="700" letter-spacing="1.4">AI PRESENTATION ENGINE</text>
     <text x="57" y="153" fill="#181a21" font-size="73" font-weight="800" letter-spacing="-3">Nerpa<tspan fill="#4e5eff">AI</tspan></text>
-    <rect x="391" y="105" width="102" height="43" rx="12" fill="#ffd64f"/>
-    <text x="411" y="135" fill="#181a21" font-size="25" font-weight="700">Free</text>
     <text x="60" y="214" fill="#1c2130" font-size="34" font-weight="700" letter-spacing="-.6">Из данных — в презентацию.</text>
     <text x="60" y="253" fill="#626b7e" font-size="19">Ваш шаблон. Подтверждённые факты. Редактируемый результат.</text>
     <g font-size="12" font-weight="700" fill="#414d65">
